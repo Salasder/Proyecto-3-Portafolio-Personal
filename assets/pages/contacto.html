@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio personal de Daniel Salas, desarrollador frontend con proyectos y experiencia académica.">
+    <meta name="author" content="Daniel Salas">
+    <meta name="keywords" content="Daniel Salas, frontend, HTML, CSS, Bootstrap, MySQL">
+    <title>Daniel Salas | Contacto</title>
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <nav class="navegacion" aria-label="Navegación principal">
+
+            <a class="nombre-sitio" href="../../index.html">
+                Daniel<span>.</span>
+            </a>
+
+            <ul class="lista-navegacion">
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <input type="checkbox" id="cambiar-tema" class="control-tema">
+            <label for="cambiar-tema" class="boton-tema">:) Modo oscuro</label>
+
+        </nav>
+    </header>
+
+    </nav>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="encabezado-pagina">
+            <p class="texto-destacado">Hablemos</p>
+            <h1>Contacto</h1>
+            <p>
+                Si tienes alguna pregunta o propuesta, puedes consultar
+                mis datos y completar el siguiente formulario.
+            </p>
+        </section>
+
+        <section class="seccion">
+            <div class="distribucion-contacto">
+
+                <aside class="informacion-contacto">
+                    <h2>Conectemos</h2>
+
+                    <p>
+                        Estoy interesado en aprender, colaborar y participar
+                        en proyectos relacionados con la tecnología.
+                    </p>
+
+                    <p>
+                        <strong>Nombre:</strong> Daniel Salas
+                    </p>
+
+                    <p>
+                        <strong>Área:</strong> Desarrollo frontend
+                    </p>
+
+                    <p>
+                        <strong>Tecnologías:</strong>
+                        HTML, CSS, Bootstrap y MySQL.
+                    </p>
+                </aside>
+
+                <form class="formulario-contacto" action="mailto:tu-correo@ejemplo.com" method="post"
+                    enctype="text/plain">
+
+                    <h2>Envíame un mensaje</h2>
+
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" autocomplete="name"
+                        required>
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" autocomplete="email"
+                        required>
+
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+
+                    <label for="comentario">Mensaje</label>
+                    <textarea id="comentario" name="comentario" rows="6" placeholder="Escribe tu mensaje..."
+                        required></textarea>
+
+                    <button class="boton" type="submit">
+                        Enviar mensaje →
+                    </button>
+
+                    <p>
+                        El envío mediante correo requiere una aplicación
+                        de correo configurada en el dispositivo.
+                    </p>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>© 2026 Daniel Salas | Portafolio personal</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
